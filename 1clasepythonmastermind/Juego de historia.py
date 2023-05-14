@@ -10,7 +10,7 @@ numeropuerta = random.randint(1,5)
 print("Bienvenido al juego \n"
       "-------------------\n")
 print("Estas en una isla solitaria")
-movimiento1 = input("Â¿Que quieres hacer?\n"
+movimiento1 = input("¿Que quieres hacer?\n"
                    "A - ir a exlorar la isla\n"
                    "B - Buscar un zona para hacer un copamento\n")
 if movimiento1 == "A":

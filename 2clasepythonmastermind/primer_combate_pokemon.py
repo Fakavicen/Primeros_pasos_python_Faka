@@ -5,6 +5,11 @@ import random
 life_pikachu = 80
 life_squirtle = 90
 
+#Constant
+
+EARLY_LIFE_PIKACHUk = life_pikachu
+EARLT_LIFE_SQIORTLE = life_squirtle
+
 while life_pikachu > 0 and life_squirtle > 0:
 
     #Turno de pikachu

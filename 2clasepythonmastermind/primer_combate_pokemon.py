@@ -8,7 +8,7 @@ life_squirtle = 90
 while life_pikachu > 0 and life_squirtle > 0:
 
     #Turno de pikachu
-    print("Tuno de pikachu")
+    print("Turno de pikachu")
     pikachu_attack = random.randint(1, 2)
     if pikachu_attack == 1:
       #Bola voltio
@@ -20,11 +20,8 @@ while life_pikachu > 0 and life_squirtle > 0:
       life_squirtle -= 11
 
 
-
-
-
-
-
+    print("La vida de pikachu es: {}, la vida de Squirtle es: {}".format(life_pikachu, life_squirtle))
+    input("Enter para continuar...")
 
 
 
@@ -46,31 +43,8 @@ while life_pikachu > 0 and life_squirtle > 0:
        life_pikachu -= 9
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print("La vida de pikachu es: {}, la vida de Squirtle es: {}".format(life_pikachu, life_squirtle))
+    input("Enter para continuar...")
 
 
 

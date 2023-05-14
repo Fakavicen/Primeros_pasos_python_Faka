@@ -24,7 +24,6 @@ while life_pikachu > 0 and life_squirtle > 0:
       print("Pikachu ataca Onda Trueno\n")
       life_squirtle -= 11
 
-
       #negative life
     if life_pikachu < 0:
        life_pikachu = 0
@@ -40,12 +39,8 @@ while life_pikachu > 0 and life_squirtle > 0:
     squirtle_bar_life = int(life_squirtle * 10 / EARLT_LIFE_SQUIORTLE)
     print("Squirtle: [{}{}] ({}/{})\n".format("*" * squirtle_bar_life, " " * (10 - squirtle_bar_life), life_squirtle, EARLT_LIFE_SQUIORTLE))
 
-
-
     input("Enter para continuar...\n")
     os.system("cls")
-
-
 
     #Turno de Squirtle
     print("Turno Squirtle\n")
@@ -66,7 +61,6 @@ while life_pikachu > 0 and life_squirtle > 0:
     elif squirtle_attack == "N":
        print("No ataco")
 
-
       #negative life
     if life_pikachu < 0:
        life_pikachu = 0
@@ -82,13 +76,8 @@ while life_pikachu > 0 and life_squirtle > 0:
     squirtle_bar_life = int(life_squirtle * 10 / EARLT_LIFE_SQUIORTLE)
     print("Squirtle: [{}{}] ({}/{})\n".format("*" * squirtle_bar_life, " " * (10 - squirtle_bar_life), life_squirtle, EARLT_LIFE_SQUIORTLE))
 
-
-
     input("Enter para continuar...\n")
     os.system("cls")
-
-
-
 
 if life_pikachu > life_squirtle:
  

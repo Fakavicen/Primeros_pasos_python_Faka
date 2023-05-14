@@ -1,4 +1,4 @@
-import random
+import random, os 
 
 #Variable
 
@@ -35,6 +35,7 @@ while life_pikachu > 0 and life_squirtle > 0:
 
 
     input("Enter para continuar...\n")
+    os.system("cls")
 
 
 
@@ -43,7 +44,7 @@ while life_pikachu > 0 and life_squirtle > 0:
 
     squirtle_attack = None
     while squirtle_attack != "P" and squirtle_attack != "A" and squirtle_attack != "B":
-        squirtle_attack = input("¿Que ataque deseas ralizar? Placaje, Pistola Agua, Burbuja\n")
+        squirtle_attack = input("¿Que ataque deseas ralizar? Placaje, Pistola Agua, Burbuja, nada\n")
     
     if squirtle_attack == "P":
         print("Squirtle ataca con Placaje\n")
@@ -54,6 +55,8 @@ while life_pikachu > 0 and life_squirtle > 0:
     elif squirtle_attack == "B":
        print("Squirtle ataca con Burbuja\n")
        life_pikachu -= 9
+    elif squirtle_attack == "N":
+       print("No ataco")
 
     #Bar life 
 
@@ -66,6 +69,8 @@ while life_pikachu > 0 and life_squirtle > 0:
 
 
     input("Enter para continuar...\n")
+    os.system("cls")
+
 
 
 

@@ -24,6 +24,14 @@ while life_pikachu > 0 and life_squirtle > 0:
       print("Pikachu ataca Onda Trueno\n")
       life_squirtle -= 11
 
+
+      #negative life
+    if life_pikachu < 0:
+       life_pikachu = 0
+
+    if life_squirtle < 0:
+        life_squirtle = 0 
+
     #Bar life 
 
     pikachu_bar_life = int(life_pikachu * 10 / EARLY_LIFE_PIKACHUk)
@@ -57,6 +65,14 @@ while life_pikachu > 0 and life_squirtle > 0:
        life_pikachu -= 9
     elif squirtle_attack == "N":
        print("No ataco")
+
+
+      #negative life
+    if life_pikachu < 0:
+       life_pikachu = 0
+
+    if life_squirtle < 0:
+        life_squirtle = 0 
 
     #Bar life 
 

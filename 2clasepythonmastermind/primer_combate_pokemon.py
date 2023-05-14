@@ -1,4 +1,4 @@
-from random import randint
+import random
 
 #Variable
 
@@ -9,7 +9,7 @@ while life_pikachu > 0 and life_squirtle > 0:
 
     #Turno de pikachu
     print("Tuno de pikachu")
-    pikachu_attack = random.radiant(1, 2)
+    pikachu_attack = random.randint(1, 2)
     if pikachu_attack == 1:
       #Bola voltio
       print("Pikachu ataca con Bola Voltio")
@@ -21,7 +21,8 @@ while life_pikachu > 0 and life_squirtle > 0:
 
 
 
- 
+
+
 
 
 

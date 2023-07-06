@@ -8,6 +8,7 @@ counted_commas = 0
 counted_spaces = 0
 counted_points = 0 
 
+#Code
 for container in text_user:
     if " " == container:
         counted_spaces += 1

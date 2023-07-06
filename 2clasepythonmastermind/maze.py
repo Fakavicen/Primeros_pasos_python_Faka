@@ -29,10 +29,13 @@ while direction != "Q":
     direction = readchar.readchar()
     if direction == "w":
         my_position[POS_Y] -= 1
+        my_position[POS_Y] %= MAP_HEIGHT
     elif direction == "s":
         my_position[POS_Y] += 1
+        my_position[POS_Y] %= MAP_HEIGHT
     elif direction == "a":
         my_position[POS_X] -= 1
+        my_position[POS_X] %= MAP_WIDTH
     elif direction == "d":
         my_position[POS_X] += 1
-        
+        my_position[POS_X] %= MAP_WIDTH
